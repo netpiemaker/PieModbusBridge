@@ -79,6 +79,3 @@ port.on('data', (data) => {
 port.on('error', function(err) {
   console.log('Error: ', err.message);
 });
-
-// open connection to a serial port
-client.open();
