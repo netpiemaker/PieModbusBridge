@@ -117,4 +117,6 @@ port.on('error', function(err) {
 ```
 $ chmod +x PieModbusBridge1.js PieModbusBridge2.js
 $ ./PieModbusBridge1.js
+$ Port Opened
+$ Connected...
 ```
