@@ -4,9 +4,7 @@
 
 Master ส่ง modbus ถามอุปกรณ์ที่ต่อภายใน bus เดียวกัน โดยมี PieModbus01 ต่ออยู่ด้วย ซึ่ง PieModbus01 อ่านค่าจาก serial และส่งต่อไปที่ PieModbus02 ผ่าน NETPIE และนำข้อความที่ได้เขียนลง serial เพื่อถามอุปกรณ์อื่นๆที่อยู่ใน bus เดียวกันกับ PieModbus02 ถ้ามีอุปกณ์ในตรงกับข้อความที่ส่งออกไป ก็จะทำการตอบกลับผ่าน NETPIE
  
-
-Master <--------> PieModbus01 (Microgear) <--------> PieModbus02 (Microgear) <--------> Slave ID 1
-
+![Alt text](img/PieModbusBridge.png?raw=true "Title")
 
 ### การใช้งาน
 
